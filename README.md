@@ -1,1 +1,22 @@
 # Artwork-Classification-and-Style-Transfer
+This project leverages a curated dataset from Kaggle's "Best Artworks of All Time," encompassing 50 most influential artists and 17,548 distinct images.
+## Problem Overview
+### Objective
+Our project was bifurcated into two primary objectives:
+1) Conduct image classification to accurately categorize paintings of different artists.
+2) Conduct style transfer to mimic and transfer artistic styles.
+### Image Classification:
+1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
+2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
+### Style Transfer:
+1) Implemented style transfer models utilizing both VGG19 and ResNet50 architectures. The goal was to capture the artistic essence of one painting and project it onto another.
+2) To delve deeper into artistic transformations, CycleGAN was employed. It was trained using a diverse dataset comprising natural landscapes and architectural imagery. The overarching ambition was to metamorphose these images to resonate with Claude Monet's iconic painting style.
+### Model Deployment:
+To bridge the gap between advanced computational models and end-users, we launched three web interfaces:
+- An interface for classification based on the model we trained (custom CNN and transfer learning based on ResNet50)
+- An interface for the VGG19 and ResNet50-based style transfer.
+- An interface for the Monet-inspired CycleGAN style transformations.
+### Implications and Future Work:
+Our comprehensive approach not only underscores the adaptability of deep learning in visual tasks but also paves the way for practical real-world applications. Future work might encompass model tuning or adjusting, and exploring other deep learning architectures for enhanced performance.
+
+The code for each task is contained in individual .ipynb files, while the code and samples for each of the three web interfaces are organized in separate folders. Additionally, the project summary can be found in 'ProjectSlides.pdf', and the detailed project report is available in 'ProjectReport.pdf'.
