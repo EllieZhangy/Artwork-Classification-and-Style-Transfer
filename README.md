@@ -2,7 +2,6 @@
 This project leverages a curated dataset from Kaggle's "Best Artworks of All Time," encompassing 50 most influential artists and 17,548 distinct images.
 ## Problem Overview
 ### Objective
-Our project was bifurcated into two primary objectives:
 1) Conduct image classification to accurately categorize paintings of different artists.
 2) Conduct style transfer to mimic and transfer artistic styles.
 ### Image Classification:
@@ -18,5 +17,9 @@ To bridge the gap between advanced computational models and end-users, we launch
 - An interface for the Monet-inspired CycleGAN style transformations.
 ### Implications and Future Work:
 Our comprehensive approach not only underscores the adaptability of deep learning in visual tasks but also paves the way for practical real-world applications. Future work might encompass model tuning or adjusting, and exploring other deep learning architectures for enhanced performance.
+## Data
+- Main Dataset: Best Artworks of All Time (https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time)
+- Additional data source for Cycle GAN Style Transfer (https://www.kaggle.com/datasets/ayaderaghul/gan-getting-started-2)
 
+## Instructions
 The code for each task is contained in individual .ipynb files, while the code and samples for each of the three web interfaces are organized in separate folders. Additionally, the project summary can be found in 'ProjectSlides.pdf', and the detailed project report is available in 'ProjectReport.pdf'.
