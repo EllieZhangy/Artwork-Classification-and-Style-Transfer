@@ -7,8 +7,9 @@ This project leverages a curated dataset from Kaggle's "Best Artworks of All Tim
 ### Image Classification:
 1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
 2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
+<img width="600" alt="Screen Shot 2023-11-18 at 1 16 01 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/8c9e9ffd-bcaf-49e8-a045-e55f85503f7d">
+<img width="600" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/44f7750a-0b1a-4e37-93ea-41790ba3ed5e">
 
-![image](https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/dbd2b2c0-28a5-42a7-96f1-34a3e1e71f58)
 
 ### Style Transfer:
 1) Implemented style transfer models utilizing both VGG19 and ResNet50 architectures. The goal was to capture the artistic essence of one painting and project it onto another.
@@ -24,7 +25,7 @@ Our comprehensive approach not only underscores the adaptability of deep learnin
 The code for each task is contained in individual .ipynb files, while the code and samples for each of the three web interfaces are organized in separate folders. Additionally, the project summary can be found in 'ProjectSlides.pdf', and the detailed project report is available in 'ProjectReport.pdf'.
 ## Data
 - Main Dataset: Best Artworks of All Time (https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time). To be more specific, we subsampled the dataset to fit our computing capacity by only selecting the top artists who have 200 or more paintings. In this way, we get 11 artists(classes) in total, and here is the histogram of the count of paintings for these top artists.
-<img width="484" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/5d3b6287-665c-40d5-bc19-330944fd5a16">
+<img width="600" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/5d3b6287-665c-40d5-bc19-330944fd5a16">
 
 - Additional data source for Cycle GAN Style Transfer (https://www.kaggle.com/datasets/ayaderaghul/gan-getting-started-2)
 
