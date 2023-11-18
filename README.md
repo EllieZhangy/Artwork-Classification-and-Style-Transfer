@@ -7,6 +7,9 @@ This project leverages a curated dataset from Kaggle's "Best Artworks of All Tim
 ### Image Classification:
 1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
 2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
+
+![image](https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/dbd2b2c0-28a5-42a7-96f1-34a3e1e71f58)
+
 ### Style Transfer:
 1) Implemented style transfer models utilizing both VGG19 and ResNet50 architectures. The goal was to capture the artistic essence of one painting and project it onto another.
 2) To delve deeper into artistic transformations, CycleGAN was employed. It was trained using a diverse dataset comprising natural landscapes and architectural imagery. The overarching ambition was to metamorphose these images to resonate with Claude Monet's iconic painting style.
