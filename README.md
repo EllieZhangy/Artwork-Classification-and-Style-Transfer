@@ -7,8 +7,8 @@ This project leverages a curated dataset from Kaggle's "Best Artworks of All Tim
 ### Image Classification:
 1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
 2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
-<img width="600" alt="Screen Shot 2023-11-18 at 1 16 01 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/8c9e9ffd-bcaf-49e8-a045-e55f85503f7d">
-<img width="600" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/44f7750a-0b1a-4e37-93ea-41790ba3ed5e">
+<img width="500" alt="Screen Shot 2023-11-18 at 1 18 11 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/e5d58fdd-4a92-4934-b7b7-e1f19b6a13df">
+<img width="800" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/44f7750a-0b1a-4e37-93ea-41790ba3ed5e">
 
 
 ### Style Transfer:
