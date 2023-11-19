@@ -14,8 +14,6 @@ To bridge the gap between advanced computational models and end-users, we launch
 - An interface for classification based on the model we trained (custom CNN and transfer learning based on ResNet50)
 - An interface for the VGG19 and ResNet50-based style transfer.
 - An interface for the Monet-inspired CycleGAN style transformations.
-## Instructions
-The code for each task is contained in individual .ipynb files, while the code and samples for each of the three web interfaces are organized in separate folders. Additionally, the project summary can be found in 'ProjectSlides.pdf', and the detailed project report is available in 'ProjectReport.pdf'.
 ## Result
 ### Image Classification
 Here is a table summarizing the train and validation accuracy of the Custom CNN after hyper-parameter tuning and fine-tuned transfer learning model based on ResNet50:
@@ -62,7 +60,8 @@ Our comprehensive approach not only underscores the adaptability of deep learnin
 
 - Additional data source for Cycle GAN Style Transfer (https://www.kaggle.com/datasets/ayaderaghul/gan-getting-started-2)
 
-
+## Instructions
+The code for each task is contained in individual .ipynb files, while the code and samples for each of the three web interfaces are organized in separate folders. Additionally, the project summary can be found in 'ProjectSlides.pdf', and the detailed project report is available in 'ProjectReport.pdf'.
 
 
 
