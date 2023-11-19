@@ -45,6 +45,8 @@ Considering the outstanding performance of the transfer learning model based on 
 <p align="center">
    <img width="500" alt="Screen Shot 2023-11-18 at 11 46 07 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/7a637947-99f3-4f79-a643-5b7f62c9f59d">
 </p>  
+
+
 ## Model Deployment
 To bridge the gap between advanced computational models and end-users, we launched three web interfaces:
 - An interface for classification based on the model we trained (custom CNN and transfer learning based on ResNet50),e.g.:
