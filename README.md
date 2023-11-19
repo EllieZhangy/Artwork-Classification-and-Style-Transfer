@@ -7,7 +7,13 @@ This project leverages a curated dataset from Kaggle's "Best Artworks of All Tim
 ### Image Classification:
 1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
 2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
+Here is a table summarizing the train and validation accuracy of the Custom CNN after hyper-parameter tuning and fine-tuned transfer learning model based on ResNet50:
 <img width="500" alt="Screen Shot 2023-11-18 at 1 18 11 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/e5d58fdd-4a92-4934-b7b7-e1f19b6a13df">
+
+Furthermore, the confusion matrix is shown in the following figure: (The left one is the result of Custom CNN after Hyper-Parameter Tuning and the right one is the result of transfer learning model based on ResNet 50):
+<img width="1046" alt="Screen Shot 2023-11-18 at 11 33 37 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/ffd7cd51-0f9f-48f1-9b49-b0050f50d24d">
+
+Considering the outstanding performance of the transfer learning model based on ResNet 50, here's its prediction result of 4 random images: 
 <img width="800" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/44f7750a-0b1a-4e37-93ea-41790ba3ed5e">
 
 
