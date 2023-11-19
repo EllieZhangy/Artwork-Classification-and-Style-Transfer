@@ -32,10 +32,14 @@ Considering the outstanding performance of the transfer learning model based on 
 
 ## Style Transfer
 - Style Transfer Result of VGG19:
-<img width="700" alt="Screen Shot 2023-11-18 at 1 20 02 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/23875d23-2a67-48d9-9cb0-ac47f8e44033">
+<p align="center">
+   <img width="700" alt="Screen Shot 2023-11-18 at 1 20 02 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/23875d23-2a67-48d9-9cb0-ac47f8e44033">
+</p>
 
 - Style Transfer Result of ResNet50:
-<img width="700" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/4c57e164-2f46-4f48-a7dd-1152ed179741">
+<p align="center">
+   <img width="700" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/4c57e164-2f46-4f48-a7dd-1152ed179741">
+</p>
 
 - A specialized Cycle GAN model to transform photographs into Claude Monet-style paintings:
 <p align="center">
