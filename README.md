@@ -17,8 +17,6 @@ To bridge the gap between advanced computational models and end-users, we launch
 
 ## Result
 ### Image Classification
-1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
-2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
 Here is a table summarizing the train and validation accuracy of the Custom CNN after hyper-parameter tuning and fine-tuned transfer learning model based on ResNet50:
 <p align="center">
    <img width="500" alt="Screen Shot 2023-11-18 at 1 18 11 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/e5d58fdd-4a92-4934-b7b7-e1f19b6a13df">
