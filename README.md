@@ -14,6 +14,11 @@ To bridge the gap between advanced computational models and end-users, we launch
 - An interface for classification based on the model we trained (custom CNN and transfer learning based on ResNet50)
 - An interface for the VGG19 and ResNet50-based style transfer.
 - An interface for the Monet-inspired CycleGAN style transformations.
+## Data
+- Main Dataset: Best Artworks of All Time (https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time). To be more specific, we subsampled the dataset to fit our computing capacity by only selecting the top artists who have 200 or more paintings. In this way, we get 11 artists(classes) in total, and here is the histogram of the count of paintings for these top artists.
+<img width="600" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/5d3b6287-665c-40d5-bc19-330944fd5a16">
+
+- Additional data source for Cycle GAN Style Transfer (https://www.kaggle.com/datasets/ayaderaghul/gan-getting-started-2)
 ## Result
 ### Image Classification
 Here is a table summarizing the **train and validation accuracy** of the Custom CNN after hyper-parameter tuning and fine-tuned transfer learning model based on ResNet50:
@@ -58,12 +63,6 @@ To bridge the gap between advanced computational models and end-users, we launch
 - An interface for the Monet-inspired CycleGAN style transformations.
 ## Implications and Future Work
 Our comprehensive approach not only underscores the adaptability of deep learning in visual tasks but also paves the way for practical real-world applications. Future work might encompass model tuning or adjusting, and exploring other deep learning architectures for enhanced performance.
-## Data
-- Main Dataset: Best Artworks of All Time (https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time). To be more specific, we subsampled the dataset to fit our computing capacity by only selecting the top artists who have 200 or more paintings. In this way, we get 11 artists(classes) in total, and here is the histogram of the count of paintings for these top artists.
-<img width="600" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/5d3b6287-665c-40d5-bc19-330944fd5a16">
-
-- Additional data source for Cycle GAN Style Transfer (https://www.kaggle.com/datasets/ayaderaghul/gan-getting-started-2)
-
 ## Instructions
 The code for each task is contained in individual .ipynb files, while the code and samples for each of the three web interfaces are organized in separate folders. Additionally, the project summary can be found in 'ProjectSlides.pdf', and the detailed project report is available in 'ProjectReport.pdf'.
 
