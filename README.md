@@ -1,13 +1,12 @@
 # Artwork-Classification-and-Style-Transfer
 This project leverages a curated dataset from Kaggle's "Best Artworks of All Time," encompassing 50 most influential artists and 17,548 distinct images.
 ## Problem Overview
-### Objective
-1) Conduct image classification to accurately categorize paintings of different artists.
-2) Conduct style transfer to mimic and transfer artistic styles.
 ### 1. Image Classification
+Conduct image classification to accurately categorize paintings of different artists.
 1) Constructed a custom CNN and performed extensive hyperparameter tuning to optimize its performance.
 2) Constructed a Transfer learning Model based on the ResNet50 architecture, capitalizing on pre-trained weights to boost accuracy.
 ### 2. Style Transfer
+Conduct style transfer to mimic and transfer artistic styles.
 1) Implemented style transfer models utilizing both VGG19 and ResNet50 architectures. The goal was to capture the artistic essence of one painting and project it onto another.
 2) To delve deeper into artistic transformations, CycleGAN was employed. It was trained using a diverse dataset comprising natural landscapes and architectural imagery. The overarching ambition was to metamorphose these images to resonate with Claude Monet's iconic painting style.
 ### 3. Model Deployment
