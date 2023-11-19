@@ -43,7 +43,7 @@ Considering the outstanding performance of the transfer learning model based on 
 
 - A specialized Cycle GAN model to transform photographs into Claude Monet-style paintings:
 <p align="center">
-   <img width="585" alt="Screen Shot 2023-11-18 at 11 46 07 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/7a637947-99f3-4f79-a643-5b7f62c9f59d">
+   <img width="400" alt="Screen Shot 2023-11-18 at 11 46 07 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/7a637947-99f3-4f79-a643-5b7f62c9f59d">
 </p>
    
 ## Model Deployment
