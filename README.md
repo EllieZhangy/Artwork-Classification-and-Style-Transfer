@@ -28,7 +28,8 @@ Considering the outstanding performance of the transfer learning model based on 
 <p align="center">
    <img width="800" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/44f7750a-0b1a-4e37-93ea-41790ba3ed5e">
 </p>
-## Style Transfer
+
+### Style Transfer
 - Style Transfer Result of VGG19:
 <p align="center">
    <img width="500" alt="Screen Shot 2023-11-18 at 1 20 02 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/23875d23-2a67-48d9-9cb0-ac47f8e44033">
