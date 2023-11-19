@@ -31,11 +31,16 @@ Considering the outstanding performance of the transfer learning model based on 
 </p>
 
 ## Style Transfer
-1) Implemented style transfer models utilizing both VGG19 and ResNet50 architectures. The goal was to capture the artistic essence of one painting and project it onto another.
+- Style Transfer Result of VGG19:
 <img width="700" alt="Screen Shot 2023-11-18 at 1 20 02 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/23875d23-2a67-48d9-9cb0-ac47f8e44033">
 
+- Style Transfer Result of ResNet50:
+<img width="700" alt="image" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/4c57e164-2f46-4f48-a7dd-1152ed179741">
 
-3) To delve deeper into artistic transformations, CycleGAN was employed. It was trained using a diverse dataset comprising natural landscapes and architectural imagery. The overarching ambition was to metamorphose these images to resonate with Claude Monet's iconic painting style.
+- A specialized Cycle GAN model to transform photographs into Claude Monet-style paintings:
+<p align="center">
+   <img width="585" alt="Screen Shot 2023-11-18 at 11 46 07 PM" src="https://github.com/EllieZhangy/Artwork-Classification-and-Style-Transfer/assets/133906690/7a637947-99f3-4f79-a643-5b7f62c9f59d">
+</p>
    
 ## Model Deployment
 To bridge the gap between advanced computational models and end-users, we launched three web interfaces:
